@@ -1,6 +1,6 @@
 {
   "name": "facerecognitionbrain",
-  "homepage":"https://anant1818731024.github.io/facerecognitionbrain",
+  "homepage": "https://anant1818731024.github.io/facerecognitionbrain",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,8 +13,8 @@
     "tachyons": "^4.12.0"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -b master -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "git-pages": "^0.8.1"
   }
 }
